@@ -1,0 +1,25 @@
+.employee-card{
+    width:260px;
+    margin: 6px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);;
+}
+.employee-card .card-header h3{
+    font-size:1.5rem;
+    margin-bottom: 0.5rem;
+}
+.list-group-item {
+    padding: 0.6rem 1rem;
+}
+.jumbotron{
+    background-image: linear-gradient(#cbd2d2,#6a6e6e);
+}
+.card-Manager .card-header{
+    background-color: #5bb1c6;
+}
+.card-Engineer .card-header{
+    background-color: #a5e6a4;
+}
+.card-Intern .card-header{
+    background-color: #eee490;
+}
+

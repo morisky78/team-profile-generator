@@ -6,27 +6,8 @@ const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
 
 const generateHtml = require('./src/generateHtml')
-
-
-// const m = new Manager('Moran R', 1, 'moranlee@gmial.com', '7618')
-// const s = new Engineer('Sidney', 2, 's-srisk@lwsd.org', 'sidneyr')
-// const k = new Intern('Kenny R', 5, 'kenny@gmail.com', 'UW')
-// const z = new Intern('Zoey', 6, 'zoey@gmail.com', 'Franklin')
-// const v = new Engineer('Vincent', 3, 's-vrisk@lwsd.org', 'vincentr')
-// const c = new Engineer('Chloe', 4, 's-chrisk@lwsd.org', 'chloer')
-
-// const myTeamMemberArr = [];
-// myTeamMemberArr.push(m)
-// myTeamMemberArr.push(s)
-// myTeamMemberArr.push(k)
-// myTeamMemberArr.push(z)
-// myTeamMemberArr.push(v)
-// myTeamMemberArr.push(c)
-
 // this array will all types of member class objects , manager, engineer, intern.
 const myTeamMemberArr = [];
-
-
 
 // prompt managers information and start building team
 // create new Manager and push it to myTeamMemberArr

@@ -165,7 +165,7 @@ function answerRequired(input) {
 
 function createTeamHTML(){
     // console.log(myTeamMemberArr)
-    fs.writeFile('./dist/team.html', generateHtml(myTeamMemberArr), (err)=> err? console.error(err): console.log('❇ Team Profile HTML is created! Check dist/team.html❇'))
+    fs.writeFile('./dist/team.html', generateHtml(myTeamMemberArr), (err)=> err? console.error(err): console.log('❇ Team Profile HTML is created! Check dist/team.html ❇'))
 }
 
 init ();

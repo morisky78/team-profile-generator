@@ -9,7 +9,6 @@ This is a command line application that generates a HTML webpage to display empl
 - [Usage](#usage)
 - [Tests](#tests)
 - [Credit](#credit)
-- [License](#license)
 - [Questions](#questions)
 
 
@@ -28,7 +27,7 @@ Then install the inquirer npm package dependency by following command
 Then, you will see node_modules folder has been created on your folder.
 
 ## Usage
-When you run `node index.js`, the application will prompt you with a series of questions about the manager first, then you can add as many engineer and interns as you want. You will be asked to answer questions about the team members as well. When you select 'finish building my team', the application will generate `team.html` file on the `dist` folder for you.  
+When you run `node index.js`, the application will prompt you with a series of questions about the manager first, then you can add as many engineers and interns as you want. You will be asked to answer questions about the team members as well. When you select 'finish building my team', the application will generate `team.html` file on the `dist` folder for you.  
 
 The following video shows an example usage of the app demonstrating the functionality.
 
